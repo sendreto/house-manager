@@ -1,0 +1,94 @@
+body {
+	margin:0px;
+	font-family:Verdana;
+	font-size:12px;
+	color:#FFF;
+}
+
+/* AREA DE LOGIN */
+#login h1 {
+	color:#07C;
+	font-size:50px;
+	font-weight:bold;
+	text-align:center;
+	text-shadow:3px 3px 3px #FFF;
+}
+#login {
+	max-width:400px;
+	width:90%;
+	display:block;
+	margin:auto;
+}
+#login fieldset {
+	border:none;
+}
+#login label {
+	color:#059;
+}
+
+/* AREA DO SISTEMA */
+#sistema h1 {
+	text-align:center;
+}
+#sistema #inicio {
+	text-align:center;
+}
+#sistema form {
+	display:block;
+	margin:auto;
+}
+#sistema form fieldset {
+	display:inline-block;
+	vertical-align:top;
+	min-height:80px;
+	border-radius:10px;
+	border:solid 4px #999;
+	margin-bottom:20px;
+	padding:5px;
+}
+#sistema form fieldset legend {
+	text-align:left;
+	border:none;
+	border-radius:8px;
+	background:#999;
+	color:#FFF;
+	margin:0px 0px 5px 0px;
+	font-size:12px;
+	font-weight:bold;
+	padding:0px 5px 0px 5px;
+	display:inline;
+	width:auto;
+}
+#sistema form fieldset input[type=button] {
+	color:#333;
+	font-weight:bold;
+}
+#sistema .desligado {
+	background: -webkit-linear-gradient(#FFF, #999); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FFF, #999); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FFF, #999); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FFF, #999); /* Standard syntax */
+}
+#sistema .ligado {
+	background:#0F0;
+}
+#sistema #topo {
+	background: -webkit-linear-gradient(#059, #09C); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#059, #09C); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#059, #09C); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#059, #09C); /* Standard syntax */
+	display:table;
+	padding:2px;
+}
+#sistema #topo > div {
+	display:table-cell;
+	width:100%;
+}
+#sistema #topo > input[type=button] {
+	display:table-cell;
+	padding:3px 5px 3px 5px;
+	width:50px;
+}
+#sistema #topo .nome {
+	text-shadow:2px 2px 2px #333;
+}
